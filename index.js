@@ -10,7 +10,7 @@ let result = ((first * 17.5) + (second * 24) + (third * 21) + (fourth * 21) + (f
 console.log(result);
     document.getElementById("result").innerText = "cgpa = " + result.toFixed(3);
     let percentage = ((result - 0.5) * 10);
-    document.getElementById("percentage").innerText = "percentage = " + percentage.toFixed(2);
+    document.getElementById("percentage").innerText = "percentage = " + percentage.toFixed(3);
 
 }
 
