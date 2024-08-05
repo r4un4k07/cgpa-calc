@@ -9,7 +9,7 @@ let fifth = parseFloat(document.getElementById("fifth").value);
 let result = ((first * 17.5) + (second * 24) + (third * 21) + (fourth * 21) + (fifth * 24))/107.5;
 console.log(result);
     document.getElementById("result").innerText = "cgpa = " + result.toFixed(3);
-    let percentage = ((result - 0.5) * 10);
+    let percentage = (result * 9.5);
     document.getElementById("percentage").innerText = "percentage = " + percentage.toFixed(3);
 
 }
